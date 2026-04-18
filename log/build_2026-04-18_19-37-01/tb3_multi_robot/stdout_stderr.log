@@ -1,0 +1,104 @@
+running egg_info
+creating ../build/tb3_multi_robot/tb3_multi_robot.egg-info
+writing ../build/tb3_multi_robot/tb3_multi_robot.egg-info/PKG-INFO
+writing dependency_links to ../build/tb3_multi_robot/tb3_multi_robot.egg-info/dependency_links.txt
+writing entry points to ../build/tb3_multi_robot/tb3_multi_robot.egg-info/entry_points.txt
+writing requirements to ../build/tb3_multi_robot/tb3_multi_robot.egg-info/requires.txt
+writing top-level names to ../build/tb3_multi_robot/tb3_multi_robot.egg-info/top_level.txt
+writing manifest file '../build/tb3_multi_robot/tb3_multi_robot.egg-info/SOURCES.txt'
+reading manifest file '../build/tb3_multi_robot/tb3_multi_robot.egg-info/SOURCES.txt'
+writing manifest file '../build/tb3_multi_robot/tb3_multi_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abhay/Desktop/varun/build/tb3_multi_robot/build
+creating /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib
+creating /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/train_rl.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/__init__.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/box_lift_env.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/box_pose_publisher.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/turtlebot3_drive.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/demo_multiple.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/utils.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/lift_coordinator.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/rl_agent.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+copying ./multi_robot_scripts/box_lift_rl_controller.py -> /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts
+running install
+running install_lib
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/train_rl.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/__init__.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/box_lift_env.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/box_pose_publisher.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/turtlebot3_drive.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/demo_multiple.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/utils.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/lift_coordinator.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/rl_agent.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+copying /home/abhay/Desktop/varun/build/tb3_multi_robot/build/lib/multi_robot_scripts/box_lift_rl_controller.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/train_rl.py to train_rl.cpython-312.pyc
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/box_lift_env.py to box_lift_env.cpython-312.pyc
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/box_pose_publisher.py to box_pose_publisher.cpython-312.pyc
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/turtlebot3_drive.py to turtlebot3_drive.cpython-312.pyc
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/demo_multiple.py to demo_multiple.cpython-312.pyc
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/utils.py to utils.cpython-312.pyc
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/lift_coordinator.py to lift_coordinator.cpython-312.pyc
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/rl_agent.py to rl_agent.cpython-312.pyc
+byte-compiling /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/box_lift_rl_controller.py to box_lift_rl_controller.cpython-312.pyc
+running install_data
+copying package.xml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/ament_index
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/ament_index/resource_index
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/ament_index/resource_index/packages
+copying resource/tb3_multi_robot -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/ament_index/resource_index/packages
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/launch
+copying launch/tb3_world.launch.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/launch
+copying launch/drive.launch.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/launch
+copying launch/rl_lift.launch.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/launch
+copying launch/box_lift_rl.launch.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/launch
+copying launch/tb3_nav2.launch.py -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/launch
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/launch/nav2_bringup
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/params
+copying params/burger_bridge.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/params
+copying params/waffle_pi_bridge.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/params
+copying params/burger_cam_nav2_params.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/params
+copying params/burger_nav2_params.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/params
+copying params/waffle_bridge.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/params
+copying params/burger_cam_bridge.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/params
+copying params/waffle_nav2_params.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/params
+copying params/waffle_pi.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/params
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/rviz
+copying rviz/tb3_navigation2.rviz -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/rviz
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/worlds
+copying worlds/tb3_world.world -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/worlds
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models/turtlebot3_burger
+copying models/turtlebot3_burger/model.config -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models/turtlebot3_burger
+copying models/turtlebot3_burger/model.sdf -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models/turtlebot3_burger
+copying models/turtlebot3_burger/model-1_4.sdf -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models/turtlebot3_burger
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models/turtlebot3_waffle
+copying models/turtlebot3_waffle/model.config -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models/turtlebot3_waffle
+copying models/turtlebot3_waffle/model.sdf -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models/turtlebot3_waffle
+copying models/turtlebot3_waffle/model-1_4.sdf -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models/turtlebot3_waffle
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/models/turtlebot3_waffle_pi
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/config
+copying config/robots.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/config
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/urdf
+copying urdf/turtlebot3_burger.urdf -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/urdf
+copying urdf/turtlebot3_burger_cam.urdf -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/urdf
+copying urdf/common_properties.urdf -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/urdf
+copying urdf/turtlebot3_waffle.urdf -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/urdf
+copying urdf/turtlebot3_waffle_pi.urdf -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/urdf
+creating /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/map
+copying map/map.pgm -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/map
+copying map/map.yaml -> /home/abhay/Desktop/varun/install/tb3_multi_robot/share/tb3_multi_robot/map
+running install_egg_info
+Copying ../build/tb3_multi_robot/tb3_multi_robot.egg-info to /home/abhay/Desktop/varun/install/tb3_multi_robot/lib/python3.12/site-packages/tb3_multi_robot-1.0.0-py3.12.egg-info
+running install_scripts
+Installing box_lift_rl_controller script to /home/abhay/Desktop/varun/install/tb3_multi_robot/bin
+Installing box_pose_publisher script to /home/abhay/Desktop/varun/install/tb3_multi_robot/bin
+Installing lift_coordinator script to /home/abhay/Desktop/varun/install/tb3_multi_robot/bin
+Installing rl_agent script to /home/abhay/Desktop/varun/install/tb3_multi_robot/bin
+Installing turtlebot3_drive script to /home/abhay/Desktop/varun/install/tb3_multi_robot/bin
+writing list of installed files to '/home/abhay/Desktop/varun/build/tb3_multi_robot/install.log'

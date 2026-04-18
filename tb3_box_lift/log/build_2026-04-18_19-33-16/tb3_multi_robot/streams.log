@@ -1,0 +1,40 @@
+[0.545s] Invoking command in '/home/abhay/Desktop/varun/tb3_box_lift': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tb3_multi_robot build --build-base /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build install --record /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/install.log --single-version-externally-managed install_data
+[0.729s] running egg_info
+[0.742s] writing build/tb3_multi_robot/tb3_multi_robot.egg-info/PKG-INFO
+[0.742s] writing dependency_links to build/tb3_multi_robot/tb3_multi_robot.egg-info/dependency_links.txt
+[0.743s] writing entry points to build/tb3_multi_robot/tb3_multi_robot.egg-info/entry_points.txt
+[0.743s] writing requirements to build/tb3_multi_robot/tb3_multi_robot.egg-info/requires.txt
+[0.743s] writing top-level names to build/tb3_multi_robot/tb3_multi_robot.egg-info/top_level.txt
+[0.769s] reading manifest file 'build/tb3_multi_robot/tb3_multi_robot.egg-info/SOURCES.txt'
+[0.770s] writing manifest file 'build/tb3_multi_robot/tb3_multi_robot.egg-info/SOURCES.txt'
+[0.770s] running build
+[0.770s] running build_py
+[0.770s] copying ./multi_robot_scripts/train_rl.py -> /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build/lib/multi_robot_scripts
+[0.770s] copying ./multi_robot_scripts/box_pose_publisher.py -> /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build/lib/multi_robot_scripts
+[0.770s] copying ./multi_robot_scripts/demo_multiple.py -> /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build/lib/multi_robot_scripts
+[0.770s] copying ./multi_robot_scripts/box_lift_rl_controller.py -> /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build/lib/multi_robot_scripts
+[0.770s] running install
+[0.775s] running install_lib
+[0.789s] copying /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build/lib/multi_robot_scripts/train_rl.py -> /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+[0.789s] copying /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build/lib/multi_robot_scripts/box_pose_publisher.py -> /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+[0.789s] copying /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build/lib/multi_robot_scripts/demo_multiple.py -> /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+[0.789s] copying /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build/lib/multi_robot_scripts/box_lift_rl_controller.py -> /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts
+[0.790s] byte-compiling /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/train_rl.py to train_rl.cpython-312.pyc
+[0.791s] byte-compiling /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/box_pose_publisher.py to box_pose_publisher.cpython-312.pyc
+[0.792s] byte-compiling /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/demo_multiple.py to demo_multiple.cpython-312.pyc
+[0.793s] byte-compiling /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/multi_robot_scripts/box_lift_rl_controller.py to box_lift_rl_controller.cpython-312.pyc
+[0.794s] running install_data
+[0.794s] copying launch/tb3_world.launch.py -> /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/share/tb3_multi_robot/launch
+[0.794s] copying worlds/tb3_world.world -> /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/share/tb3_multi_robot/worlds
+[0.795s] copying config/robots.yaml -> /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/share/tb3_multi_robot/config
+[0.795s] running install_egg_info
+[0.809s] removing '/home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/tb3_multi_robot-1.0.0-py3.12.egg-info' (and everything under it)
+[0.809s] Copying build/tb3_multi_robot/tb3_multi_robot.egg-info to /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages/tb3_multi_robot-1.0.0-py3.12.egg-info
+[0.810s] running install_scripts
+[0.900s] Installing box_lift_rl_controller script to /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/bin
+[0.900s] Installing box_pose_publisher script to /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/bin
+[0.901s] Installing lift_coordinator script to /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/bin
+[0.901s] Installing rl_agent script to /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/bin
+[0.901s] Installing turtlebot3_drive script to /home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/bin
+[0.901s] writing list of installed files to '/home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/install.log'
+[0.921s] Invoked command in '/home/abhay/Desktop/varun/tb3_box_lift' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abhay/Desktop/varun/tb3_box_lift/install/tb3_multi_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/tb3_multi_robot build --build-base /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/build install --record /home/abhay/Desktop/varun/tb3_box_lift/build/tb3_multi_robot/install.log --single-version-externally-managed install_data

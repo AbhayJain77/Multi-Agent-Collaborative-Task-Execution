@@ -1,0 +1,6 @@
+[console_scripts]
+box_lift_rl_controller = multi_robot_scripts.box_lift_rl_controller:main
+box_pose_publisher = multi_robot_scripts.box_pose_publisher:main
+lift_coordinator = multi_robot_scripts.lift_coordinator:main
+rl_agent = multi_robot_scripts.rl_agent:main
+turtlebot3_drive = multi_robot_scripts.turtlebot3_drive:main
