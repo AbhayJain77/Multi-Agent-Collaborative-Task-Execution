@@ -325,3 +325,22 @@ source ~/Desktop/varun/rl_env/bin/activate
 cd ~/Desktop/varun/tb3_box_lift/multi_robot_scripts
 python3 box_lift_rl_controller.py
 ```
+---
+
+## Results
+
+* Successfully trained multi-agent PPO model for collaborative task
+* Robots dynamically adapt to **any box position**
+* Works with **arbitrary robot spawn configurations**
+* Achieved **100% success rate (10/10 runs)** in evaluation
+* No hardcoding — fully generalized solution
+
+---
+
+## Simulation Demo
+
+🎥 **Video of Simulation:**
+
+```id="demo-link"
+https://drive.google.com/drive/folders/18aqT3gQcN1sbx7hOkfWUAMHNjZj5DTz7?usp=sharing
+```
