@@ -342,5 +342,5 @@ python3 box_lift_rl_controller.py
 🎥 **Video of Simulation:**
 
 ```id="demo-link"
-https://drive.google.com/drive/folders/18aqT3gQcN1sbx7hOkfWUAMHNjZj5DTz7?usp=sharing
+https://drive.google.com/drive/folders/1qxd41xLakn2VBD5htoBt0jk_zV3RzOVq?usp=sharing
 ```
